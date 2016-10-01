@@ -1,0 +1,15 @@
+DEFINED_PHASES=install postinst prepare setup
+DEPEND=>=dev-lang/php-5.3 >=dev-php/smarty-3.0 >=dev-libs/sihnon-php-lib-1.1.1 >=dev-libs/sihnon-js-lib-0.1.0 >=dev-php/PEAR-Net_Gearman-0.2.3 >=media-video/handbrake-0.9
+DESCRIPTION=Distributed ripping cluster manager using HandBrake as a backend
+EAPI=3
+HOMEPAGE=https://benroberts.net/projects/ripping-cluster/
+IUSE=webui +worker
+KEYWORDS=~amd64 ~x86
+LICENSE=CCPL-Attribution-ShareAlike-NonCommercial-3.0
+RDEPEND=>=dev-lang/php-5.3 >=dev-php/smarty-3.0 >=dev-libs/sihnon-php-lib-1.1.1 >=dev-libs/sihnon-js-lib-0.1.0 >=dev-php/PEAR-Net_Gearman-0.2.3 >=media-video/handbrake-0.9
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/optiz0r/ripping-cluster/tarball/release-0.4.1 -> ripping-cluster-0.4.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_prepare:- src_install:-
+_eclasses_=eutils	b83a2420b796f7c6eff682679d08fe25	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
+_md5_=db438827f96437181ffb7b6fc1e9dc6b

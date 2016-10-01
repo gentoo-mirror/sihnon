@@ -1,0 +1,12 @@
+DEFINED_PHASES=install unpack
+DEPEND=dev-vcs/git
+DESCRIPTION=MCollective plug-in that manages puppet dynamic environments using shell commands
+EAPI=4
+HOMEPAGE=https://github.com/optiz0r/mcollective-puppetenvsh-agent
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=app-admin/librarian-puppet || ( app-admin/puppet-agent app-admin/mcollective ) dev-vcs/git
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-2 src_install:-
+_eclasses_=git-2	7af5d170bfc02983b4bcd3167dc5edd4
+_md5_=5f67f8731eba585fc2e9d7f4febc5951

@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DEPEND=dev-vcs/git
+DESCRIPTION=MCollective plug-in that manages the puppet CA.
+EAPI=4
+HOMEPAGE=https://github.com/puppetlabs/mcollective-puppetca-agent
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-2 src_install:-
+_eclasses_=git-2	7af5d170bfc02983b4bcd3167dc5edd4
+_md5_=87e8b98d6df2be29eb531b90f47ebf99
