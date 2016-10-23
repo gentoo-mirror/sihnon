@@ -27,6 +27,6 @@ media-video/ripping-cluster 0.4.1: Distributed ripping cluster manager using Han
 net-irc/quassel-core 9999: Qt4/KDE4 IRC client. This provides the "core" (server) component.
 net-wireless/eyefiserver 2.3_rc2: An open source Eye-Fi Server written in Python.
 net-wireless/unifi 4.8.18 5.0.6-r1: Management Controller for Ubiquiti Networks UniFi APs
-sys-apps/entropybroker 2.8: infrastructure for distributing entropy
+sys-apps/entropybroker 2.8-r1: infrastructure for distributing entropy
 www-misc/motioneye 0.30: A web frontend for the motion daemon
 www-servers/gitlab-workhorse 0.8.2: Handles slow HTTP requests for GitLab
