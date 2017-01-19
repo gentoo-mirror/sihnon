@@ -1,0 +1,13 @@
+DEFINED_PHASES=prepare
+DEPEND=>=net-dns/bind-9.11 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
+EAPI=6
+HOMEPAGE=https://fedorahosted.org/bind-dyndb-ldap/
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2.0
+RDEPEND=>=net-dns/bind-9.11
+SLOT=0
+SRC_URI=https://github.com/freeipa/bind-dyndb-ldap/archive/v11.0.tar.gz -> bind-dyndb-ldap-11.0.tar.gz
+_eclass_exported_funcs=src_prepare:-
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=18e41aa68f0c8ac6c9cef4a6db9e7645
