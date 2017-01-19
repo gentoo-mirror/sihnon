@@ -14,7 +14,7 @@ dev-ruby/puppet_forge 2.1.2: Ruby client for the Puppet Forge API
 dev-ruby/puppetdb-termini 4.2.2: Library needed to connect puppet to puppetdb
 dev-ruby/puppetlabs_spec_helper 1.1.1: A set of shared spec helpers specific to Puppetlabs projects
 dev-ruby/rspec-puppet 2.4.0: RSpec tests for your Puppet manifests
-dev-ruby/rspec-puppet-utils 2.2.1: Provides a testing harness for puppet functions, templates and hieradata
+dev-ruby/rspec-puppet-utils 2.2.1-r1: Provides a testing harness for puppet functions, templates and hieradata
 dev-ruby/rsync 1.0.9-r1: A library that can syncronize files between remote hosts by wrapping a call to the rsync binary.
 dev-ruby/simplecov-rcov 0.2.3-r1: Rcov style formatter for SimpleCov
 dev-vcs/gitlab-shell 3.6.2: GitLab Shell is a free SSH access and repository management application
