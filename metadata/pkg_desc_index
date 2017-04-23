@@ -28,6 +28,7 @@ mcollective-plugin/mcollective-puppet-agent 1.10.0: MCollective plug-in that man
 mcollective-plugin/mcollective-puppetca-agent 9999: MCollective plug-in that manages the puppet CA.
 mcollective-plugin/mcollective-puppetenv-agent 0.2: MCollective plug-in that manages puppet dynamic environments.
 mcollective-plugin/mcollective-puppetenvsh-agent 0.6-r2: MCollective plug-in that manages puppet dynamic environments using shell commands
+media-tv/tvheadend 4.2.1: Tvheadend is a TV streaming server and digital video recorder
 media-video/motion 4.0: A software motion detector
 media-video/ripping-cluster 0.4.1: Distributed ripping cluster manager using HandBrake as a backend
 net-analyzer/nagios-plugin-check-scsi-smart 1.2.2: Nagios SMART disk checks for devices on SCSI busses

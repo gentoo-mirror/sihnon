@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst prepare setup
+DEPEND=dev-libs/openssl:= virtual/libiconv avahi? ( net-dns/avahi ) dbus? ( sys-apps/dbus ) ffmpeg? ( !libav? ( media-video/ffmpeg:0/55.57.57 ) libav? ( media-video/libav:= ) ) hdhomerun? ( media-libs/libhdhomerun ) uriparser? ( dev-libs/uriparser ) zlib? ( sys-libs/zlib ) dvb? ( virtual/linuxtv-dvb-headers media-tv/linuxtv-dvb-apps ) dvbcsa? ( media-libs/libdvbcsa ) dvben50221? ( media-tv/linuxtv-dvb-apps ) virtual/pkgconfig virtual/pkgconfig
+DESCRIPTION=Tvheadend is a TV streaming server and digital video recorder
+EAPI=6
+HOMEPAGE=https://tvheadend.org/
+IUSE=avahi bundle dbus cwc capmt constcw dvben50221 +dvb dvbcsa ffmpeg hdhomerun libav +imagecache inotify iptv satip systemd +timeshift uriparser xmltv zlib
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=xmltv? ( media-tv/xmltv )
+REQUIRED_USE=bundle? ( zlib ) dvbcsa? ( || ( cwc capmt constcw dvben50221 ) )
+SLOT=0
+SRC_URI=https://github.com/tvheadend/tvheadend/archive/v4.2.1.tar.gz -> tvheadend-4.2.1.tar.gz
+_eclass_exported_funcs=pkg_postinst:- pkg_setup:- src_prepare:- src_configure:- src_compile:- src_install:-
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	epunt-cxx	f8073339d152f56626493f43d8ba4691	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	e7491451996e8b54c3caeb713285b0fb	linux-info	ca370deef9d44125d829f2eb6ebc83e0	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	systemd	ec2e9154031d942186c75c0aabb41900	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	user	e4b567c44272a719fabf53f0f885d3f7	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_md5_=2fc116357cc9b1d9c4129c143fa37c75
