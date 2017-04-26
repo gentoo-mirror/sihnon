@@ -2,3 +2,8 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+media-tv/tvheadend:capmt - Enable capmt descrambling support
+media-tv/tvheadend:constcw - Enable constcw descrambling support
+media-tv/tvheadend:cwc - Enable cwc descrambling support
+media-tv/tvheadend:dvbcsa - Use the dvbcsa library for descrambling
+media-tv/tvheadend:dvben50221 - Enable hardware CAM CI module support
