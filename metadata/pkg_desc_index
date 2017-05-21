@@ -33,7 +33,6 @@ media-video/motion 4.0: A software motion detector
 media-video/ripping-cluster 0.4.1: Distributed ripping cluster manager using HandBrake as a backend
 net-analyzer/nagios-plugin-check-scsi-smart 1.2.2: Nagios SMART disk checks for devices on SCSI busses
 net-dns/bind-dyndb-ldap 11.0: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
-net-irc/quassel-core 9999: Qt4/KDE4 IRC client. This provides the "core" (server) component.
 net-wireless/eyefiserver 2.3_rc2: An open source Eye-Fi Server written in Python.
 net-wireless/unifi 4.8.18 5.0.6-r1: Management Controller for Ubiquiti Networks UniFi APs
 sys-apps/entropybroker 2.8-r2: infrastructure for distributing entropy
