@@ -3,7 +3,6 @@ app-admin/librarianp 0.6.3: A framework for bundlers, used by librarian-puppet
 dev-libs/sihnon-js-lib 0.1.0: Sihnon JS Framework
 dev-libs/sihnon-php-lib 1.1.1: Sihnon PHP Framework
 dev-php/PEAR-Net_Gearman 0.2.3: PEAR::Net_Gearman is a PHP interface to Gearman
-dev-python/pypuppetdb 0.3.2: Python library for working with the PuppetDB API
 dev-ruby/asetus 0.2.0: silly little configuration library for ruby
 dev-ruby/her 0.7.2: ORM that maps REST resources to Rubyobjects
 dev-ruby/hiera-eyaml 2.0.2: Encrypted YAML backend for hiera
@@ -21,19 +20,12 @@ dev-ruby/puppetlabs_spec_helper 1.1.1: A set of shared spec helpers specific to 
 dev-ruby/rspec-puppet 2.4.0: RSpec tests for your Puppet manifests
 dev-ruby/rspec-puppet-utils 2.2.1-r1: Provides a testing harness for puppet functions, templates and hieradata
 dev-ruby/rsync 1.0.9-r1: A library that can syncronize files between remote hosts by wrapping a call to the rsync binary.
-dev-ruby/rugged 0.25.1: Ruby bindings to the libgit2 linkable C Git library
 dev-ruby/simplecov-rcov 0.2.3-r1: Rcov style formatter for SimpleCov
 mcollective-plugin/mcollective-puppet-agent 1.10.0: MCollective plug-in that manages the puppet agent daemon.
 mcollective-plugin/mcollective-puppetca-agent 9999: MCollective plug-in that manages the puppet CA.
 mcollective-plugin/mcollective-puppetenv-agent 0.2: MCollective plug-in that manages puppet dynamic environments.
 mcollective-plugin/mcollective-puppetenvsh-agent 0.6-r2: MCollective plug-in that manages puppet dynamic environments using shell commands
-media-tv/tvheadend 4.2.1: Tvheadend is a TV streaming server and digital video recorder
-media-video/motion 4.0: A software motion detector
 media-video/ripping-cluster 0.4.1: Distributed ripping cluster manager using HandBrake as a backend
 net-analyzer/nagios-plugin-check-scsi-smart 1.2.2: Nagios SMART disk checks for devices on SCSI busses
 net-dns/bind-dyndb-ldap 11.0: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
 net-wireless/eyefiserver 2.3_rc2: An open source Eye-Fi Server written in Python.
-net-wireless/unifi 4.8.18 5.0.6-r1: Management Controller for Ubiquiti Networks UniFi APs
-sys-apps/entropybroker 2.8-r2: infrastructure for distributing entropy
-www-misc/motioneye 0.30: A web frontend for the motion daemon
-www-servers/gitlab-workhorse 0.8.2: Handles slow HTTP requests for GitLab
