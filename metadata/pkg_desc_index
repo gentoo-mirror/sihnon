@@ -22,6 +22,7 @@ dev-ruby/puppetlabs_spec_helper 2.3.2: A set of shared spec helpers specific to 
 dev-ruby/rspec-puppet 2.6.9: RSpec tests for your Puppet manifests
 dev-ruby/rspec-puppet-utils 3.4.0: Provides a testing harness for puppet functions, templates and hieradata
 dev-ruby/rsync 1.0.9-r2: A library that can syncronize files between remote hosts by wrapping a call to the rsync binary.
+dev-ruby/rugged 0.26.0: Ruby bindings to the libgit2 linkable C Git library
 dev-ruby/simplecov-rcov 0.2.3-r2: Rcov style formatter for SimpleCov
 dev-ruby/webmock-rspec-helper 0.0.5: Easily define WebMock stubs that point to JSON files
 mcollective-plugin/mcollective-puppet-agent 1.10.0: MCollective plug-in that manages the puppet agent daemon.
