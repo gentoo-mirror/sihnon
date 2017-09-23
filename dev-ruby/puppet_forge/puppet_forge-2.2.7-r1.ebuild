@@ -4,17 +4,19 @@
 
 EAPI=4
 USE_RUBY="ruby22 ruby23"
+RUBY_FAKEGEM_EXTRAINSTALL='locales'
 
 inherit ruby-fakegem
 
-DESCRIPTION="Puppet module manager"
-HOMEPAGE="http://librarian-puppet.com/"
+DESCRIPTION="Ruby client for the Puppet Forge API"
+HOMEPAGE="https://github.com/puppetlabs/forge-ruby"
 
-LICENSE="BSD"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-ruby_add_rdepend "app-admin/librarianp
-				  dev-ruby/rsync"
-
+ruby_add_rdepend "dev-ruby/faraday"
+ruby_add_rdepend "dev-ruby/faraday_middleware"
+ruby_add_rdepend "dev-ruby/minitar"
+ruby_add_rdepend "dev-ruby/semantic_puppet"

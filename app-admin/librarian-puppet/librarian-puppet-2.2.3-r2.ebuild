@@ -7,15 +7,18 @@ USE_RUBY="ruby22 ruby23"
 
 inherit ruby-fakegem
 
-DESCRIPTION="Ruby client for the Puppet Forge API"
-HOMEPAGE="https://github.com/puppetlabs/forge-ruby"
+DESCRIPTION="Puppet module manager"
+HOMEPAGE="http://librarian-puppet.com/"
 
-LICENSE="MIT"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-ruby_add_rdepend "dev-ruby/faraday"
-ruby_add_rdepend "dev-ruby/faraday_middleware"
-ruby_add_rdepend "dev-ruby/minitar"
-ruby_add_rdepend "dev-ruby/semantic_puppet"
+DEPEND="
+	dev-ruby/faraday:0.9
+	dev-ruby/faraday_middleware:0.10"
+
+ruby_add_rdepend "app-admin/librarianp
+				  dev-ruby/rsync"
+
