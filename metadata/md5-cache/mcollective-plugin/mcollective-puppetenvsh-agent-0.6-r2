@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=app-admin/librarian-puppet || ( app-admin/puppet-agent app-admin/mcollective ) dev-vcs/git
 SLOT=0
-_eclasses_=git-2	195a672bfaf52d868442171c9469bbb6
+_eclasses_=git-2	45ff482316b52b3f96ff6b7309b77f03
 _md5_=5f67f8731eba585fc2e9d7f4febc5951

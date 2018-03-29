@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/puppetlabs/mcollective-puppetca-agent
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 SLOT=0
-_eclasses_=git-2	195a672bfaf52d868442171c9469bbb6
+_eclasses_=git-2	45ff482316b52b3f96ff6b7309b77f03
 _md5_=87e8b98d6df2be29eb531b90f47ebf99
