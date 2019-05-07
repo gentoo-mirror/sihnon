@@ -4,11 +4,10 @@
 
 EAPI="7"
 
-inherit git-2
+inherit git-r3
 
 DESCRIPTION="MCollective plug-in that manages puppet dynamic environments using shell commands"
 HOMEPAGE="https://github.com/optiz0r/mcollective-puppetenvsh-agent"
-EGIT_PROJECT="mcollective-puppetenvsh-agent"
 EGIT_REPO_URI="https://github.com/optiz0r/mcollective-puppetenvsh-agent.git"
 EGIT_TAG="${PV}"
 
