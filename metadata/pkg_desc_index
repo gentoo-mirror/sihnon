@@ -1,7 +1,7 @@
 app-admin/librarian-puppet 2.2.3-r2 3.0.0: Puppet module manager
 app-admin/librarianp 0.6.3-r2: A framework for bundlers, used by librarian-puppet
 app-admin/pdk 1.10.0.0: Puppet SDK - develop and test puppet modules
-app-admin/puppet-env-manager 0.4.2: Tool for updating puppet environments on puppet masters using librarian-puppet
+app-admin/puppet-env-manager 0.4.4: Tool for updating puppet environments on puppet masters using librarian-puppet
 dev-python/py-mco-agent 0.3.2: Library for implementing Mcollective agents in Python
 dev-ruby/asetus 0.2.0-r1: silly little configuration library for ruby
 dev-ruby/faraday 0.9.2-r3: HTTP/REST API client library with pluggable components
