@@ -8,5 +8,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=app-admin/librarian-puppet || ( app-admin/mcollective net-misc/choria-bin ) dev-vcs/git
 SLOT=0
-_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
+_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd
 _md5_=8d6910c4e5231da1fad2ba3e3daf3b98
