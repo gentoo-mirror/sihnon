@@ -1,11 +1,7 @@
 app-admin/pdk 1.10.0.0: Puppet SDK - develop and test puppet modules
-app-admin/puppet-env-manager 0.4.4: Tool for updating puppet environments on puppet masters using librarian-puppet
-dev-python/py-mco-agent 0.3.2: Library for implementing Mcollective agents in Python
-dev-ruby/her 0.7.2: ORM that maps REST resources to Rubyobjects
-dev-ruby/hiera-eyaml 2.0.2: Encrypted YAML backend for hiera
-dev-ruby/hiera-eyaml-gpg 0.4: A GPG backend for hiera-eyaml
+app-admin/puppet-env-manager 0.4.5: Tool for updating puppet environments on puppet masters using librarian-puppet
+dev-python/py-mco-agent 0.3.3: Library for implementing Mcollective agents in Python
 media-video/ripping-cluster 0.4.1: Distributed ripping cluster manager using HandBrake as a backend
 net-analyzer/nagios-plugin-check-scsi-smart 1.2.2: Nagios SMART disk checks for devices on SCSI busses
 net-dns/bind-dyndb-ldap 11.0 11.1-r1 11.1-r2: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
-net-misc/choria-bin 0.12.1: The Choria Orchestrator Server and Broker
 net-wireless/eyefiserver 2.3_rc2: An open source Eye-Fi Server written in Python.
