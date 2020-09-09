@@ -1,4 +1,3 @@
-app-admin/pdk 1.10.0.0: Puppet SDK - develop and test puppet modules
 app-admin/puppet-env-manager 0.4.5: Tool for updating puppet environments on puppet masters using librarian-puppet
 dev-python/py-mco-agent 0.3.3: Library for implementing Mcollective agents in Python
 media-video/ripping-cluster 0.4.1: Distributed ripping cluster manager using HandBrake as a backend
