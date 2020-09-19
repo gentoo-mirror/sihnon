@@ -3,4 +3,6 @@ dev-python/py-mco-agent 0.3.3-r1: Library for implementing Mcollective agents in
 media-video/ripping-cluster 0.4.1: Distributed ripping cluster manager using HandBrake as a backend
 net-analyzer/nagios-plugin-check-scsi-smart 1.2.2: Nagios SMART disk checks for devices on SCSI busses
 net-dns/bind-dyndb-ldap 11.0 11.1-r1 11.4: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
+net-irc/quassel-client 0.13.1-r2: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (client only)
+net-irc/quassel-core 0.13.1-r2: Qt/KDE IRC client - the "core" (server) component
 net-wireless/eyefiserver 2.3_rc2: An open source Eye-Fi Server written in Python.
