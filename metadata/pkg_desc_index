@@ -1,9 +1,7 @@
 app-admin/puppet-env-manager 0.4.6-r1: Tool for updating puppet environments on puppet masters using librarian-puppet
 dev-python/py-mco-agent 0.3.3-r1: Library for implementing Mcollective agents in Python
-media-video/ripping-cluster 0.4.1: Distributed ripping cluster manager using HandBrake as a backend
 net-analyzer/nagios-plugin-check-scsi-smart 1.2.2: Nagios SMART disk checks for devices on SCSI busses
 net-dns/bind-dyndb-ldap 11.0 11.1-r1 11.5: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
 net-irc/quassel-client 0.13.1-r2: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (client only)
 net-irc/quassel-core 0.13.1-r2: Qt/KDE IRC client - the "core" (server) component
 net-misc/choria-bin 0.19.0: The Choria Orchestrator Server and Broker
-net-wireless/eyefiserver 2.3_rc2: An open source Eye-Fi Server written in Python.
