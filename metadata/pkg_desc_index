@@ -1,5 +1,3 @@
-app-admin/puppet-env-manager 0.4.6-r1: Tool for updating puppet environments on puppet masters using librarian-puppet
-dev-python/py-mco-agent 0.3.3-r1: Library for implementing Mcollective agents in Python
 net-analyzer/nagios-plugin-check-scsi-smart 1.2.2: Nagios SMART disk checks for devices on SCSI busses
 net-dns/bind-dyndb-ldap 11.0 11.1-r1 11.5: Bind DynDB LDAP backend (replacement for sdb-ldap and dlz)
 net-irc/quassel-client 0.13.1-r2: Qt/KDE IRC client supporting a remote daemon for 24/7 connectivity (client only)
